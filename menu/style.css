@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+li{
+	list-style-type: none;
+}
+
 body{
 	background-color: #d4d4d4;
 }
@@ -21,10 +25,12 @@ a{
 	text-decoration: none;
 }
 
-li{
+nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding: 15px 10px 0 10px;
 }
 
 section{
@@ -48,10 +54,11 @@ section.row img{
 
 section.ml0{
 	margin-left: 0;
+	border-color: orange;
 }
 
 section.good-description1{
-	background-color: green;
+	
 	display: inline-block;
 	vertical-align: middle;
 	width: 75%;
@@ -61,7 +68,7 @@ section.good-description1{
 }
 
 section.good-description2{
-	background-color: blue;
+	
 	display: inline-block;
 	vertical-align: middle;
 	width: 20%;
@@ -71,10 +78,8 @@ section.good-description2{
 
 section.good-img{
 	display: block;
-}
-
-.good{
-	width: 18%;
+	border-style: none;
+	background-color: orange;
 }
 
 section.good-info{
@@ -110,15 +115,11 @@ img.sushi{
 	text-align: center;
 }
 
-
-.line{
-	border-left: 1px solid;
-	border-right: 1px solid;
-	padding: 15px 10px 0 10px;
+.good{
+	width: 18%;
 }
 
-
-li:hover{
+nav ul li:hover{
 	background-color: grey;
 }
 
