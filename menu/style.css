@@ -7,17 +7,80 @@ body{
 	background-color: #d4d4d4;
 }
 
-.li1{
-	margin-left: 0;
-}
-
 header{
 	background-color: grey;
 }
 
-img{
+header section img{
 	width: 200px;
 	display: inline-block;
+}
+
+a{
+	font-size: 30px;
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	
+}
+
+section{
+	text-align: center;
+}
+
+.row section{
+	display: inline-block;
+	margin: auto;
+	border: solid 2px
+}
+
+section.row{
+	padding-top: 50px;
+}
+
+section.row img{
+	height: 200px;
+	width: 240px; 
+}
+
+section.ml0{
+	margin-left: 0;
+}
+
+section.good-description1{
+	background-color: green;
+	display: inline-block;
+	vertical-align: middle;
+	width: 75%;
+	min-height: 50px;
+	text-align: left;
+	border: none;
+}
+
+section.good-description2{
+	background-color: blue;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20%;
+	min-height: 54px;
+	border: none;
+}
+
+section.good-img{
+	display: block;
+}
+
+.good{
+	width: 18%;
+}
+
+section.good-info{
+	width: 100%;
+	border: none;
+	background-color: orange;
 }
 
 img.sushi{
@@ -26,8 +89,12 @@ img.sushi{
 	vertical-align: middle;
 }
 
-section{
-	text-align: center;
+.f-s{
+	font-size: 26px;
+}
+
+.li1{
+	margin-left: 0;
 }
 
 .image{
@@ -43,24 +110,13 @@ section{
 	text-align: center;
 }
 
-li{
-	list-style-type: none;
-	display: inline-block;
-	
-}
 
 .line{
 	border-left: 1px solid;
 	border-right: 1px solid;
-	padding-right: 10px;
-  padding-left: 10px;
-	padding-top: 15px;
+	padding: 15px 10px 0 10px;
 }
 
-a{
-	font-size: 30px;
-	text-decoration: none;
-}
 
 li:hover{
 	background-color: grey;
