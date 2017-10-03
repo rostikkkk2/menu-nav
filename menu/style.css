@@ -45,6 +45,7 @@ section{
 
 section.row{
 	padding-top: 50px;
+	
 }
 
 section.row img{
@@ -58,7 +59,7 @@ section.ml0{
 }
 
 section.good-description1{
-	
+	padding-bottom: 15px;
 	display: inline-block;
 	vertical-align: middle;
 	width: 75%;
@@ -92,6 +93,33 @@ img.sushi{
 	height: 260px;
 	width: 600px;
 	vertical-align: middle;
+}
+
+section section.ml{
+		margin-left: 30px;
+		border-color: orange;
+}
+
+section section.change-photo{
+	width: 100%;
+  background-color: #ff8100;
+  border-style: none;
+}
+
+section section.contacts{
+	border: solid 2px;
+	text-align: left;
+	width: 250px;
+  min-height: 240px;
+}
+
+.caption-contact{
+	text-align:center;
+}
+
+.last-info-site{
+	background-color: #d48f10;
+	margin-top: 100px;
 }
 
 .f-s{
